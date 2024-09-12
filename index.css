@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    width: 650px;
+    width: 500px;
 }
 
 #face-img {
@@ -12,4 +12,15 @@ body {
     width: auto; 
     max-width: 300px; 
     max-height: 300px;
+}
+
+#last-updated {
+    position: fixed;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 400px%;
+  }
 }
