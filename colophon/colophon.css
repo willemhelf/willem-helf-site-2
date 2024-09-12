@@ -10,3 +10,7 @@ body {
 .text-block {
     padding-top: 30px;
 }
+
+.bolded {
+    font-weight: bold;
+}
