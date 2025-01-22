@@ -5,16 +5,18 @@ body {
 }
 
 .container {
-    width: 560px;
+    width: 400px;
+    margin-left: 50px;
 }
 
 .text-block {
-    padding-top: 30px;
+    padding-top: 11px;
 }
 
 a {
-    color: #1a1b8a;
-}
+    text-decoration-style: dotted;
+    color: black;
+  }
 
 a:hover {
     background-color: gray;
