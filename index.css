@@ -5,22 +5,21 @@ body {
 
 .container {
     width: 500px;
-}
-
-#face-img {
-    height: auto; 
-    width: auto; 
-    max-width: 300px; 
-    max-height: 300px;
+    margin-left: 50px;
 }
 
 .text-block {
   padding-top: 11px;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 a {
-  text-decoration: underline;
-  color: #1a1b8a;
+  text-decoration-style: dotted;
+  color: black;
 }
 
 a:hover {
