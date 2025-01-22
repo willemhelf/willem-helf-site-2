@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.container {
+    width: 400px;
+    margin-left: 50px;
+}
+
+.text-block {
+    padding-top: 11px;
+}
+
+a {
+    text-decoration-style: dotted;
+    color: black;
+}
+  
+a:hover {
+    background-color: gray;
+}
+
+.bolded {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1050px) {
+    html, body {
+        width: 100%;
+        max-width: 100%;
+        overflow-y: hidden;
+    }
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+  }
