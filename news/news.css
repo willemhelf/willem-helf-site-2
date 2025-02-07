@@ -3,12 +3,26 @@ body {
     padding: 0;
 }
 
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
 .container {
-    width: 560px;
+    width: 400px;
+    margin-left: 50px;
 }
 
 .text-block {
-    padding-top: 30px;
+    padding-top: 11px;
+}
+
+a {
+    text-decoration-style: dotted;
+    color: black;
+}
+  
+a:hover {
+    background-color: gray;
 }
 
 .bolded {
@@ -22,7 +36,8 @@ body {
         overflow-y: hidden;
     }
     .container {
-        width: 100%;
+        width: 77%;
         max-width: 100%;
+        margin: auto;
     }
   }
